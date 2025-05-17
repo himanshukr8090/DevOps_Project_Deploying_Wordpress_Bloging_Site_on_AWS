@@ -1,6 +1,6 @@
 # 🚀 DevOps Project: Deploying a WordPress Blogging Site on AWS using EKS and ArgoCD
 
-This project demonstrates how to deploy a WordPress blogging platform on AWS using **Amazon EKS (Elastic Kubernetes Service)**, **ArgoCD** for GitOps-based CI/CD, and Kubernetes resources managed via `kubectl`.
+This project demonstrates how to deploy a WordPress blogging platform on AWS using **Amazon EKS (Elastic Kubernetes Service)**, **ArgoCD** for GitOps-based CD, and Kubernetes resources managed via `kubectl`.
 
 ## 📋 Prerequisites
 
@@ -112,7 +112,7 @@ wpressapp    LoadBalancer   10.100.39.135    afac9b7b1acb04c109118ebfee30527a-17
 - 8 ![Screenshot 2025-05-17 112519](https://github.com/user-attachments/assets/7e0aa8f3-239e-4023-afdf-1586dca81b26)
 
 
-### 9. 🧹 Cleanup (Optional)
+### 8. 🧹 Cleanup (Optional)
 ####To delete the EKS cluster and all associated resources:
 
 ```bash
